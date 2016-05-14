@@ -1,3 +1,4 @@
+/home/lifu/Documents/DBdriver/pq/build/testpq/CMakeFiles/TestPostgresql.dir
 /home/lifu/Documents/DBdriver/pq/build/examples/BOWMapping/CMakeFiles/bow_mapping.dir
 /home/lifu/Documents/DBdriver/pq/build/tools/Calibration/CMakeFiles/calibration.dir
 /home/lifu/Documents/DBdriver/pq/build/tools/Camera/CMakeFiles/camera.dir

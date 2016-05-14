@@ -47,6 +47,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/lifu/Documents/DBdriver/pq/build/utilite/cmake_install.cmake")
   INCLUDE("/home/lifu/Documents/DBdriver/pq/build/corelib/cmake_install.cmake")
+  INCLUDE("/home/lifu/Documents/DBdriver/pq/build/testpq/cmake_install.cmake")
   INCLUDE("/home/lifu/Documents/DBdriver/pq/build/guilib/cmake_install.cmake")
   INCLUDE("/home/lifu/Documents/DBdriver/pq/build/app/cmake_install.cmake")
   INCLUDE("/home/lifu/Documents/DBdriver/pq/build/tools/cmake_install.cmake")

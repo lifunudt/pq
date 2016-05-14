@@ -212,6 +212,19 @@ rtabmap_core/fast:
 .PHONY : rtabmap_core/fast
 
 #=============================================================================
+# Target rules for targets named TestPostgresql
+
+# Build rule for target.
+TestPostgresql: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TestPostgresql
+.PHONY : TestPostgresql
+
+# fast build rule for target.
+TestPostgresql/fast:
+	$(MAKE) -f testpq/CMakeFiles/TestPostgresql.dir/build.make testpq/CMakeFiles/TestPostgresql.dir/build
+.PHONY : TestPostgresql/fast
+
+#=============================================================================
 # Target rules for targets named rtabmap_gui
 
 # Build rule for target.
@@ -450,6 +463,7 @@ help:
 	@echo "... rtabmap_utilite"
 	@echo "... res_tool"
 	@echo "... rtabmap_core"
+	@echo "... TestPostgresql"
 	@echo "... rtabmap_gui"
 	@echo "... rtabmap"
 	@echo "... consoleApp"

@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS =  -fmessage-length=0  -fopenmp -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/usr/include/vtk-5.8 -I/home/lifu/Documents/DBdriver/pq/utilite/include -I/home/lifu/Documents/DBdriver/pq/corelib/src/../include -I/home/lifu/Documents/DBdriver/pq/corelib/src -I/home/lifu/Documents/DBdriver/pq/build/corelib/src -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/dc1394    -Wall -Wno-unknown-pragmas
+C_FLAGS =  -fmessage-length=0  -fopenmp -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/usr/include/vtk-5.8 -I/home/lifu/Documents/DBdriver/pq/utilite/include -I/home/lifu/Documents/DBdriver/pq/corelib/src/../include -I/home/lifu/Documents/DBdriver/pq/corelib/src -I/home/lifu/Documents/DBdriver/pq/build/corelib/src -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/dc1394    -Wall -lpqxx -lpq -Wno-unknown-pragmas
 
 C_DEFINES = -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -DFREENECT_DASH_INCLUDES -Dqh_QHpointer -Drtabmap_core_EXPORTS
 
-CXX_FLAGS =  -fmessage-length=0  -Wno-deprecated -fopenmp -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/usr/include/vtk-5.8 -I/home/lifu/Documents/DBdriver/pq/utilite/include -I/home/lifu/Documents/DBdriver/pq/corelib/src/../include -I/home/lifu/Documents/DBdriver/pq/corelib/src -I/home/lifu/Documents/DBdriver/pq/build/corelib/src -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/dc1394    -Wall -Wno-unknown-pragmas
+CXX_FLAGS =  -fmessage-length=0  -Wno-deprecated -fopenmp -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/usr/include/vtk-5.8 -I/home/lifu/Documents/DBdriver/pq/utilite/include -I/home/lifu/Documents/DBdriver/pq/corelib/src/../include -I/home/lifu/Documents/DBdriver/pq/corelib/src -I/home/lifu/Documents/DBdriver/pq/build/corelib/src -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/dc1394    -Wall -lpqxx -lpq -Wno-unknown-pragmas
 
 CXX_DEFINES = -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -DFREENECT_DASH_INCLUDES -Dqh_QHpointer -Drtabmap_core_EXPORTS
 
