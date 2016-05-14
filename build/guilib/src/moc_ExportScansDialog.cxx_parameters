@@ -1,0 +1,6 @@
+-I/usr/include/opencv
+-I/usr/include
+-I/usr/include/vtk-5.8
+-o
+/home/lifu/Documents/DBdriver/pq/build/guilib/src/moc_ExportScansDialog.cxx
+/home/lifu/Documents/DBdriver/pq/guilib/src/ExportScansDialog.h
